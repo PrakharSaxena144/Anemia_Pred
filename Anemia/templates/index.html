@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Anemia Prediction</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-image: url('https://www.shutterstock.com/image-illustration/red-blood-science-3d-illustration-600nw-2381840831.jpg');
+            background-size: cover;
+            background-position: center;
+            background-attachment: fixed;
+            margin: 0;
+            padding: 40px 20px;
+        }
+
+        h2 {
+            text-align: center;
+            color: #fff;
+            text-shadow: 1px 1px 3px #000;
+        }
+
+        form {
+            background-color: rgba(255, 255, 255, 0.75);
+            padding: 25px;
+            border-radius: 10px;
+            max-width: 600px;
+            margin: auto;
+            box-shadow: 0 4px 12px rgba(0, 0, 0, 0.3);
+        }
+
+        label {
+            font-weight: bold;
+        }
+
+        input[type="number"] {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0 20px 0;
+            border: 1px solid #ccc;
+            border-radius: 5px;
+            background-color: rgba(255, 255, 255, 0.8);
+        }
+
+        input[type="submit"] {
+            background-color: #e53935;
+            color: white;
+            padding: 12px;
+            border: none;
+            border-radius: 6px;
+            cursor: pointer;
+            width: 100%;
+            font-size: 16px;
+            transition: background-color 0.3s ease;
+        }
+
+        input[type="submit"]:hover {
+            background-color: #c62828;
+        }
+
+        .result {
+            margin-top: 20px;
+            font-size: 20px;
+            text-align: center;
+            color: #ffffff;
+            text-shadow: 1px 1px 3px #000;
+        }
+    </style>
+</head>
+<body>
+
+    <h2>Anemia Prediction</h2>
+
+    <form action="/predict" method="post">
+        <label for="feature1">Feature 1:</label>
+        <input type="number" step="any" name="feature1" required>
+
+        <label for="feature2">Feature 2:</label>
+        <input type="number" step="any" name="feature2" required>
+
+        <label for="feature3">Feature 3:</label>
+        <input type="number" step="any" name="feature3" required>
+
+        <label for="feature4">Feature 4:</label>
+        <input type="number" step="any" name="feature4" required>
+
+        <label for="feature5">Feature 5:</label>
+        <input type="number" step="any" name="feature5" required>
+
+        <input type="submit" value="Predict">
+    </form>
+
+    {% if prediction_text %}
+    <div class="result">
+        {{ prediction_text }}
+    </div>
+    {% endif %}
+
+</body>
+</html>
