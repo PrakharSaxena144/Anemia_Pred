@@ -1,6 +1,5 @@
 # Anemia_Pred
 
-# Details
 This project represents binary classfication of Anemia Dataset using machine learning algorithm Gradiant Boosting, flask and its deployment through render.
 
 # About Dataset
@@ -13,5 +12,5 @@ MCHC: MCHC stands for mean corpuscular hemoglobin concentration. It's a measure 
 MCV: MCV stands for mean corpuscular volume. An MCV blood test measures the average size of your red blood cells.
 Results: 0- not anemic, 1-anemic
 
-# Prakhar Saxena
-# Link to render page: 
+#### Prakhar Saxena
+###### Link to render page: 
