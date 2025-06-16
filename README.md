@@ -2,7 +2,7 @@
 
 This project represents binary classfication of Anemia Dataset using machine learning algorithm Gradiant Boosting, flask and its deployment through render.
 
-# About Dataset
+## About Dataset
 Anemia dataset containing attributes Gender, Hemoglobin, MCHC, MCV, MCH and Results. This dataset is used to predict if a patient is likely to suffer from anemia. Machine learning binary classifier algorithm to be used.
 
 Gender: 0 - male, 1 - female
