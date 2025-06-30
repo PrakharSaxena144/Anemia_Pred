@@ -12,5 +12,22 @@ MCHC: MCHC stands for mean corpuscular hemoglobin concentration. It's a measure 
 MCV: MCV stands for mean corpuscular volume. An MCV blood test measures the average size of your red blood cells.
 Results: 0- not anemic, 1-anemic
 
-#### Prakhar Saxena
-###### Link to render page: 
+## Acknowledgements
+
+- [Ragi Shehab](https://www.kaggle.com/code/ragishehab/anemia-model-performance-notebook/notebook)
+
+- [Kaggle](https://www.kaggle.com/)
+
+## Deployment
+
+The project is deployed here:
+
+###### Link to render page:   https://anemia-prediction-ml-model.onrender.com/
+
+## Environment Variables
+
+To run this project, you will need to add the following environment variables to your .env file
+
+`GEMINI_API_KEY=`
+
+#### Prakhar Saxena  
