@@ -24,10 +24,5 @@ The project is deployed here:
 
 ###### Link to render page:   https://anemia-prediction-ml-model.onrender.com/
 
-## Environment Variables
-
-To run this project, you will need to add the following environment variables to your .env file
-
-`GEMINI_API_KEY=`
 
 #### Prakhar Saxena  
